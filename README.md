@@ -1,19 +1,10 @@
 # zhb-ui-demo
 
-## Project setup
-```
-npm install
-```
+##安装组件库
+  npm add zhb-ui
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+##全局导入  
+  import ZhbUi from 'zhb-ui' 
+  import 'zhb-ui/dist/zhb-ui.css'
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Vue.use(ZhbUi)
